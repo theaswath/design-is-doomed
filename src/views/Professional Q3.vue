@@ -4,8 +4,8 @@
     <div class="container">
       <div class="content">
         <h2>
-          Q3. Which of the following happens the most at your organization or
-          with your client?
+          Q3. Which of the following happens or has happened the most at your
+          organization or with your client?
         </h2>
         <!-- Options Start -->
 

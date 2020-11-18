@@ -4,8 +4,8 @@
     <div class="container">
       <div class="content">
         <h2>
-          Q20. Which of the following according to you does the world need
-          design to focus on?
+          Q20. Which of the following according to you does design need to focus
+          on?
         </h2>
         <!-- Options Start -->
 

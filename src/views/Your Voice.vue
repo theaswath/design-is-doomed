@@ -51,7 +51,7 @@
       </div>
     </div>
     <div id="formSuccess" class="displayNone">
-      <h2>Your voice has been sent!</h2>
+      <h2>Your feedback has been sent!</h2>
     </div>
     <footer>
       <div class="container">

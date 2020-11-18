@@ -3,10 +3,7 @@
     <!-- <div class="intro"></div> -->
     <div class="container">
       <div class="content">
-        <h2>
-          Q2. Which of the following is the most important to your
-          organization/client?
-        </h2>
+        <h2>Q2. Which of the following is the most important to you?</h2>
         <!-- Options Start -->
 
         <div class="division">

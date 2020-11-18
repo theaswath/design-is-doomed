@@ -4,7 +4,8 @@
     <div class="container">
       <div class="content">
         <h2>
-          Q26. The quality of feedback provided to/by you at your organization
+          Q26. Rate the quality of feedback provided to you at your
+          organization.
         </h2>
         <p>Rate on a scale of 0 (Non Existent) - 10 (Extremely Helpful)</p>
         <!-- Options Start -->

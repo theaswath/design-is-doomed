@@ -4,7 +4,7 @@
     <div class="container">
       <div class="content">
         <h2>
-          Q23. Which is a better designed, assuming both are intentionally
+          Q23. Which is better designed, assuming both are intentionally
           designed this way?
         </h2>
         <!-- Options Start -->

@@ -645,7 +645,7 @@ export default {
       if (localStorage.getItem("qset") == "W") {
         //console.log("QSET W");
         //Option A
-        if (localStorage.getItem("Q9") == "10") {
+        if (localStorage.getItem("Q15") == "10") {
           document.getElementById("next").style.cursor = "pointer";
           document.getElementById("next").disabled = false;
           document.getElementById("optionA").classList.add("option-selected");
@@ -715,7 +715,7 @@ export default {
         }
 
         //Option B
-        else if (localStorage.getItem("Q9") == "9") {
+        else if (localStorage.getItem("Q15") == "9") {
           document.getElementById("next").style.cursor = "pointer";
           document.getElementById("next").disabled = false;
           document.getElementById("optionB").classList.add("option-selected");
@@ -785,7 +785,7 @@ export default {
         }
 
         //Option C
-        else if (localStorage.getItem("Q9") == "8") {
+        else if (localStorage.getItem("Q15") == "8") {
           document.getElementById("next").style.cursor = "pointer";
           document.getElementById("next").disabled = false;
           document.getElementById("optionC").classList.add("option-selected");
@@ -855,7 +855,7 @@ export default {
         }
 
         //Option D
-        else if (localStorage.getItem("Q9") == "7") {
+        else if (localStorage.getItem("Q15") == "7") {
           document.getElementById("next").style.cursor = "pointer";
           document.getElementById("next").disabled = false;
           document.getElementById("optionD").classList.add("option-selected");
@@ -925,7 +925,7 @@ export default {
         }
 
         //Option E
-        else if (localStorage.getItem("Q9") == "6") {
+        else if (localStorage.getItem("Q15") == "6") {
           document.getElementById("next").style.cursor = "pointer";
           document.getElementById("next").disabled = false;
           document.getElementById("optionE").classList.add("option-selected");
@@ -995,7 +995,7 @@ export default {
         }
 
         //Option F
-        else if (localStorage.getItem("Q9") == "5") {
+        else if (localStorage.getItem("Q15") == "5") {
           document.getElementById("next").style.cursor = "pointer";
           document.getElementById("next").disabled = false;
           document.getElementById("optionF").classList.add("option-selected");
@@ -1065,7 +1065,7 @@ export default {
         }
 
         //Option G
-        else if (localStorage.getItem("Q9") == "4") {
+        else if (localStorage.getItem("Q15") == "4") {
           document.getElementById("next").style.cursor = "pointer";
           document.getElementById("next").disabled = false;
           document.getElementById("optionG").classList.add("option-selected");
@@ -1135,7 +1135,7 @@ export default {
         }
 
         //Option H
-        else if (localStorage.getItem("Q9") == "3") {
+        else if (localStorage.getItem("Q15") == "3") {
           document.getElementById("next").style.cursor = "pointer";
           document.getElementById("next").disabled = false;
           document.getElementById("optionH").classList.add("option-selected");
@@ -1205,7 +1205,7 @@ export default {
         }
 
         //Option I
-        else if (localStorage.getItem("Q9") == "2") {
+        else if (localStorage.getItem("Q15") == "2") {
           document.getElementById("next").style.cursor = "pointer";
           document.getElementById("next").disabled = false;
           document.getElementById("optionI").classList.add("option-selected");
@@ -1275,7 +1275,7 @@ export default {
         }
 
         //Option J
-        else if (localStorage.getItem("Q9") == "1") {
+        else if (localStorage.getItem("Q15") == "1") {
           document.getElementById("next").style.cursor = "pointer";
           document.getElementById("next").disabled = false;
           document.getElementById("optionJ").classList.add("option-selected");
@@ -1345,7 +1345,7 @@ export default {
         }
 
         //Option K
-        else if (localStorage.getItem("Q9") == "0") {
+        else if (localStorage.getItem("Q15") == "0") {
           document.getElementById("next").style.cursor = "pointer";
           document.getElementById("next").disabled = false;
           document.getElementById("optionK").classList.add("option-selected");
