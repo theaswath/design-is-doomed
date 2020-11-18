@@ -1835,7 +1835,7 @@ export default {
     var t, m, s; // time, min part, sec part
 
     if (localStorage.getItem("newAvg") > localStorage.getItem("oldAvg")) {
-      t = t =
+      t =
         (parseFloat(localStorage.getItem("newAvg")) -
           (parseFloat(localStorage.getItem("oldAvg")) *
             parseInt(localStorage.getItem("oldRecords")) +
