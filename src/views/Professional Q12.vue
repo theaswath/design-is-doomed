@@ -300,7 +300,7 @@ export default {
     this.returningUser();
 
     if (localStorage.getItem("Q12") === null) {
-      console.log("Works");
+      //console.log("Works");
       document.getElementById("next").style.cursor = "not-allowed";
       document.getElementById("next").disabled = true;
     }
@@ -309,7 +309,7 @@ export default {
 
   methods: {
     optionSelected: function () {
-      console.log(event.currentTarget.id);
+      //console.log(event.currentTarget.id);
       document.getElementById("next").style.cursor = "pointer";
       document.getElementById("next").disabled = false;
 
@@ -645,10 +645,10 @@ export default {
     },
 
     returningUser: function () {
-      console.log("returning User Triggered");
+      //console.log("returning User Triggered");
 
       if (localStorage.getItem("qset") == "W") {
-        console.log("QSET W");
+        //console.log("QSET W");
         //Option A
         if (localStorage.getItem("Q12") == "0") {
           document.getElementById("next").style.cursor = "pointer";

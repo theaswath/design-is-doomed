@@ -157,7 +157,7 @@ export default {
   },
   methods: {
     optionSelected: function () {
-      console.log(event.currentTarget.id);
+      //console.log(event.currentTarget.id);
     },
   },
 

@@ -252,7 +252,7 @@ export default {
 
   created() {
     if (this.$route.path === "/") {
-      // console.log("Triggered 2");
+      // //console.log("Triggered 2");
       // document.body.style.background = "url(/assets/images/bg.jpg)";
       document.body.style.backgroundColor = "#f85215";
       // document.body.style.backgroundSize = "100%";
@@ -356,7 +356,7 @@ export default {
       );
       document.getElementById("nav-wrapper").style.backgroundColor =
         "transparent";
-      // console.log("CHANGE NAV BG");
+      // //console.log("CHANGE NAV BG");
       setTimeout(() => {
         document.getElementById("overlay-content").style.opacity = 1;
       }, 300);
@@ -383,7 +383,7 @@ export default {
       if (localStorage.getItem("qset") == "W") {
         if (this.$route.path === "/take-the-test/professional-q1") {
           this.$router.push({ path: "/take-the-test" });
-          console.log(this.$route.path);
+          // //console.log(this.$route.path);
         } else if (this.$route.path === "/take-the-test/professional-q2") {
           this.$router.push({ path: "/take-the-test/professional-q1" });
         } else if (this.$route.path === "/take-the-test/professional-q3") {
@@ -447,7 +447,7 @@ export default {
       if (localStorage.getItem("qset") == "S") {
         if (this.$route.path === "/take-the-test/student-q1") {
           this.$router.push({ path: "/take-the-test" });
-          console.log(this.$route.path);
+          //console.log(this.$route.path);
         } else if (this.$route.path === "/take-the-test/student-q2") {
           this.$router.push({ path: "/take-the-test/student-q1" });
         } else if (this.$route.path === "/take-the-test/student-q3") {
@@ -501,10 +501,10 @@ export default {
       // Professional Questions Order Start
       if (localStorage.getItem("qset") == "W") {
         if (this.$route.name === "Take The Test") {
-          console.log(this.$route.path);
+          //console.log(this.$route.path);
           this.$router.push({ path: "/take-the-test/professional-q1" });
         } else if (this.$route.path === "/take-the-test/professional-q1") {
-          console.log(this.$route.path);
+          //console.log(this.$route.path);
           this.$router.push({ path: "/take-the-test/professional-q2" });
         } else if (this.$route.path === "/take-the-test/professional-q2") {
           this.$router.push({ path: "/take-the-test/professional-q3" });
@@ -560,23 +560,23 @@ export default {
           this.$route.path === "/take-the-test/data-privacy-compliance"
         ) {
           if (document.getElementById("userID").value === "") {
-            console.log("null");
+            //console.log("null");
             localStorage.setItem("userID", "user" + Math.random());
-            console.log("USERID NULL: " + localStorage.getItem("userID"));
+            //console.log("USERID NULL: " + localStorage.getItem("userID"));
           } else {
             localStorage.setItem(
               "userID",
               document.getElementById("userID").value
             );
-            console.log("USERID Not NULL: " + localStorage.getItem("userID"));
+            //console.log("USERID Not NULL: " + localStorage.getItem("userID"));
           }
 
           this.checkFlag();
-          console.log("Flag Before AVG: " + this.flag);
+          //console.log("Flag Before AVG: " + this.flag);
 
           this.calcAvg();
 
-          console.log("New AVG: " + localStorage.getItem("newAvg"));
+          //console.log("New AVG: " + localStorage.getItem("newAvg"));
           if (isNaN(localStorage.getItem("newAvg")) !== true) {
             this.fbOrder();
           }
@@ -588,10 +588,10 @@ export default {
       // Student Questions Order Start
       if (localStorage.getItem("qset") == "S") {
         if (this.$route.name === "Take The Test") {
-          console.log(this.$route.path);
+          //console.log(this.$route.path);
           this.$router.push({ path: "/take-the-test/student-q1" });
         } else if (this.$route.path === "/take-the-test/student-q1") {
-          console.log(this.$route.path);
+          //console.log(this.$route.path);
           this.$router.push({ path: "/take-the-test/student-q2" });
         } else if (this.$route.path === "/take-the-test/student-q2") {
           this.$router.push({ path: "/take-the-test/student-q3" });
@@ -627,26 +627,26 @@ export default {
           this.$route.path === "/take-the-test/data-privacy-compliance"
         ) {
           if (document.getElementById("userID").value === "") {
-            console.log("null");
+            //console.log("null");
             localStorage.setItem("userID", "user" + Math.random());
-            console.log("USERID NULL: " + localStorage.getItem("userID"));
+            //console.log("USERID NULL: " + localStorage.getItem("userID"));
           } else {
             localStorage.setItem(
               "userID",
               document.getElementById("userID").value
             );
-            console.log("USERID Not NULL: " + localStorage.getItem("userID"));
+            //console.log("USERID Not NULL: " + localStorage.getItem("userID"));
           }
 
           this.checkFlag();
-          console.log("Flag Before AVG: " + this.flag);
+          //console.log("Flag Before AVG: " + this.flag);
 
           this.calcAvg();
 
-          console.log("New AVG: " + localStorage.getItem("newAvg"));
+          //console.log("New AVG: " + localStorage.getItem("newAvg"));
 
           if (isNaN(localStorage.getItem("newAvg")) !== true) {
-            console.log("New AVG: Is Number");
+            //console.log("New AVG: Is Number");
             this.fbOrder();
           }
         }
@@ -675,38 +675,38 @@ export default {
 
     checkFlag() {
       if (localStorage.getItem("qset") == "W") {
-        console.log("Flag" + this.flag);
+        //console.log("Flag" + this.flag);
         if (parseInt(localStorage.getItem("Q18")) == "0") {
           this.flag += 5;
-          console.log("Flag" + this.flag);
+          //console.log("Flag" + this.flag);
         }
         if (parseInt(localStorage.getItem("Q23")) == "0") {
           this.flag += 3;
-          console.log("Flag" + this.flag);
+          //console.log("Flag" + this.flag);
         }
         if (parseInt(localStorage.getItem("Q24")) == "0") {
           this.flag += 5;
-          console.log("Flag" + this.flag);
+          //console.log("Flag" + this.flag);
         }
       } else if (localStorage.getItem("qset") == "S") {
-        console.log("Flag" + this.flag);
+        //console.log("Flag" + this.flag);
 
         if (parseInt(localStorage.getItem("Q14")) == "0") {
           this.flag += 3;
-          console.log("Flag" + this.flag);
+          //console.log("Flag" + this.flag);
         }
         if (parseInt(localStorage.getItem("Q15")) == "0") {
           this.flag += 5;
-          console.log("Flag" + this.flag);
+          //console.log("Flag" + this.flag);
         }
       }
     },
 
     async calcAvg() {
-      console.log("Start AVG Calc");
+      //console.log("Start AVG Calc");
       this.isLoading = true;
       await this.startCalc();
-      console.log("End AVG Calc");
+      //console.log("End AVG Calc");
     },
 
     startCalc() {
@@ -769,16 +769,16 @@ export default {
 
     async getLatestTime() {
       this.isLoading = true;
-      console.log("Reading Started");
+      //console.log("Reading Started");
       await this.readRecord();
-      console.log("Reading Complete");
+      //console.log("Reading Complete");
       this.isLoading = false;
       this.moveHands();
       this.minCounter();
     },
 
     moveHands() {
-      console.log("Hands Moved");
+      //console.log("Hands Moved");
       var minHandPosDeg = 360 / 60;
       // var hourHandPosDeg = 360 / 12;
 
@@ -804,7 +804,7 @@ export default {
           "rotate(" + minHandPosDeg * currentMinHand + "deg)"
         );
 
-        console.log(document.getElementById("minCheck").style.transform);
+        //console.log(document.getElementById("minCheck").style.transform);
       });
       // $(".clock-hands-box .hour-hand")
       //   .css
@@ -861,8 +861,8 @@ export default {
       await firebase.auth().onAuthStateChanged(function (user) {
         if (user) {
           // User is signed in.
-          console.log(user.isAnonymous);
-          console.log("USER ID: " + user.uid);
+          //console.log(user.isAnonymous);
+          //console.log("USER ID: " + user.uid);
           // ...
         } else {
           // User is signed out.
@@ -907,7 +907,7 @@ export default {
           Q26: localStorage.getItem("Q26"),
         })
         .then(() => {
-          console.log("Document successfully written!");
+          //console.log("Document successfully written!");
         })
         .catch((error) => {
           console.error("Error writing document: ", error);
@@ -936,8 +936,8 @@ export default {
       await firebase.auth().onAuthStateChanged(function (user) {
         if (user) {
           // User is signed in.
-          console.log(user.isAnonymous);
-          console.log(user.uid);
+          //console.log(user.isAnonymous);
+          //console.log(user.uid);
           // ...
         } else {
           // User is signed out.
@@ -956,8 +956,8 @@ export default {
           querySnapshot.forEach((doc) => {
             localStorage.setItem("oldAvg", doc.data().average);
             localStorage.setItem("oldRecords", doc.data().records);
-            console.log("OLD AVERAGE " + localStorage.getItem("oldAvg"));
-            console.log("OLD Records " + localStorage.getItem("oldRecords"));
+            //console.log("OLD AVERAGE " + localStorage.getItem("oldAvg"));
+            //console.log("OLD Records " + localStorage.getItem("oldRecords"));
           });
         })
         .catch((error) => {
@@ -970,9 +970,9 @@ export default {
     //Update Method Start
 
     async updateRecord() {
-      console.log(parseFloat(localStorage.getItem("oldAvg")));
-      console.log(parseInt(localStorage.getItem("oldRecords")));
-      console.log(parseFloat(localStorage.getItem("newAvg")));
+      //console.log(parseFloat(localStorage.getItem("oldAvg")));
+      //console.log(parseInt(localStorage.getItem("oldRecords")));
+      //console.log(parseFloat(localStorage.getItem("newAvg")));
 
       await db
         .collection("average")
@@ -986,7 +986,7 @@ export default {
             (parseInt(localStorage.getItem("oldRecords")) + 1),
         })
         .then(() => {
-          console.log("Document successfully updated!");
+          //console.log("Document successfully updated!");
         })
         .catch((error) => {
           console.error("Error updating document: ", error);
@@ -1002,7 +1002,7 @@ export default {
         .doc(id)
         .delete()
         .then(() => {
-          console.log("Document successfully deleted!");
+          //console.log("Document successfully deleted!");
         })
         .catch((error) => {
           console.error("Error removing document: ", error);

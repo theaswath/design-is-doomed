@@ -1108,12 +1108,35 @@ footer {
   }
 }
 
-@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-device-width: 1400px) and (max-device-width: 1601px) {
+  h1 {
+    font-size: 56px;
+    font-weight: 900;
+    text-align: left;
+    line-height: 0.5em;
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1399px) {
   h1 {
     font-size: 48px;
     font-weight: 900;
     text-align: left;
-    line-height: 0.8em;
+    line-height: 0.5em;
+  }
+
+  .card-learn {
+    height: 550px;
+    width: 314px;
+  }
+}
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) {
+  h1 {
+    font-size: 56px;
+    font-weight: 900;
+    text-align: left;
+    line-height: 0.5em;
   }
 }
 </style>
@@ -1456,7 +1479,7 @@ export default {
         localStorage.getItem("Q1") != "5" &&
         localStorage.getItem("Q2") != "5"
       ) {
-        console.log("Metrics Gone");
+        //console.log("Metrics Gone");
         document.getElementById("C1Container").style.display = "none";
       }
 
@@ -1476,7 +1499,7 @@ export default {
         localStorage.getItem("Q23") != "0" &&
         localStorage.getItem("Q20") != "2"
       ) {
-        console.log("U Word Gone");
+        //console.log("U Word Gone");
         document.getElementById("C2Container").style.display = "none";
       }
 
@@ -1485,7 +1508,7 @@ export default {
       // Testing Testing start
 
       if (localStorage.getItem("Q3") != "5") {
-        console.log("Testing Gone)");
+        //console.log("Testing Gone)");
         document.getElementById("C4Container").style.display = "none";
       }
 
@@ -1494,7 +1517,7 @@ export default {
       // Do dont tell start
 
       if (localStorage.getItem("Q3") != "3") {
-        console.log("Dont Tell Gone");
+        //console.log("Dont Tell Gone");
         document.getElementById("C3Container").style.display = "none";
       }
 
@@ -1509,7 +1532,7 @@ export default {
         localStorage.getItem("Q4") != "2" &&
         localStorage.getItem("Q6") != "5"
       ) {
-        console.log("Plagerism Gone");
+        //console.log("Plagerism Gone");
         document.getElementById("C5Container").style.display = "none";
       }
 
@@ -1522,7 +1545,7 @@ export default {
         parseInt(localStorage.getItem("Q8")) <= 5 &&
         parseInt(localStorage.getItem("Q19")) <= 5
       ) {
-        console.log("Thumbs Gone");
+        //console.log("Thumbs Gone");
         document.getElementById("C6Container").style.display = "none";
       }
 
@@ -1535,7 +1558,7 @@ export default {
         localStorage.getItem("Q22") != "3" &&
         localStorage.getItem("Q22") != "1"
       ) {
-        console.log("AllvMost Gone");
+        //console.log("AllvMost Gone");
         document.getElementById("C7Container").style.display = "none";
       }
 
@@ -1544,7 +1567,7 @@ export default {
       // Feedback Critical start
 
       if (parseInt(localStorage.getItem("Q26")) <= 5) {
-        console.log("Feedback Gone");
+        //console.log("Feedback Gone");
         document.getElementById("C8Container").style.display = "none";
       }
 
@@ -1556,7 +1579,7 @@ export default {
         parseInt(localStorage.getItem("Q11")) <= 5 &&
         parseInt(localStorage.getItem("Q16")) <= 5
       ) {
-        console.log("Money Gone");
+        //console.log("Money Gone");
         document.getElementById("C9Container").style.display = "none";
       }
 
@@ -1568,7 +1591,7 @@ export default {
         parseInt(localStorage.getItem("Q12")) <= 5 &&
         parseInt(localStorage.getItem("Q21")) <= 5
       ) {
-        console.log("Trend Gone");
+        //console.log("Trend Gone");
         document.getElementById("C10Container").style.display = "none";
       }
 
@@ -1577,7 +1600,7 @@ export default {
       // Zoom start
 
       if (parseInt(localStorage.getItem("Q13")) <= 5) {
-        console.log("Zoom Gone");
+        //console.log("Zoom Gone");
         document.getElementById("C11Container").style.display = "none";
       }
 
@@ -1586,7 +1609,7 @@ export default {
       // I Can Feel It start
 
       if (parseInt(localStorage.getItem("Q14")) <= 5) {
-        console.log("Feeling Gone");
+        //console.log("Feeling Gone");
         document.getElementById("C12Container").style.display = "none";
       }
 
@@ -1599,7 +1622,7 @@ export default {
         localStorage.getItem("Q20") != "5" &&
         localStorage.getItem("Q20") != "4"
       ) {
-        console.log("Pretty Gone");
+        //console.log("Pretty Gone");
         document.getElementById("C13Container").style.display = "none";
       }
 
@@ -1611,7 +1634,7 @@ export default {
         localStorage.getItem("Q18") != "5" &&
         localStorage.getItem("Q18") != "4"
       ) {
-        console.log("Seat Gone");
+        //console.log("Seat Gone");
         document.getElementById("C14Container").style.display = "none";
       }
 
@@ -1624,7 +1647,7 @@ export default {
         localStorage.getItem("Q17") != "4" &&
         localStorage.getItem("Q17") != "3"
       ) {
-        console.log("Formula Gone");
+        //console.log("Formula Gone");
         document.getElementById("C15Container").style.display = "none";
       }
 
@@ -1633,7 +1656,7 @@ export default {
       // Jack of trades start
 
       if (parseInt(localStorage.getItem("Q15")) <= 5) {
-        console.log("Jack Gone");
+        //console.log("Jack Gone");
         document.getElementById("C16Container").style.display = "none";
       }
 
@@ -1647,63 +1670,63 @@ export default {
       // N/A Start
       // Metrics Of Design Start
 
-      console.log("Metrics Gone");
+      //console.log("Metrics Gone");
       document.getElementById("C1Container").style.display = "none";
 
       // Metrics Of Design End
 
       // Do dont tell start
 
-      console.log("Dont Tell Gone");
+      //console.log("Dont Tell Gone");
       document.getElementById("C3Container").style.display = "none";
 
       // Do dont tell end
 
       // Plagiarism Warning start
 
-      console.log("Plagerism Gone");
+      //console.log("Plagerism Gone");
       document.getElementById("C5Container").style.display = "none";
 
       // Plagiarism Warning end
 
       // All v Most start
 
-      console.log("AllvMost Gone");
+      //console.log("AllvMost Gone");
       document.getElementById("C7Container").style.display = "none";
 
       // All v Most end
 
       // Money Cant start
 
-      console.log("Money Gone");
+      //console.log("Money Gone");
       document.getElementById("C9Container").style.display = "none";
 
       // Money Cant end
 
       // Trending start
 
-      console.log("Trend Gone");
+      //console.log("Trend Gone");
       document.getElementById("C10Container").style.display = "none";
 
       // Trending end
 
       // Zoom start
 
-      console.log("Zoom Gone");
+      //console.log("Zoom Gone");
       document.getElementById("C11Container").style.display = "none";
 
       // Zoom end
 
       // Make Pretty start
 
-      console.log("Pretty Gone");
+      //console.log("Pretty Gone");
       document.getElementById("C13Container").style.display = "none";
 
       // Make Pretty end
 
       // No Seat start
 
-      console.log("Seat Gone");
+      //console.log("Seat Gone");
       document.getElementById("C14Container").style.display = "none";
 
       // No Seat end
@@ -1724,7 +1747,7 @@ export default {
         localStorage.getItem("Q15") != "3" &&
         localStorage.getItem("Q15") != "0"
       ) {
-        console.log("U Word Gone");
+        //console.log("U Word Gone");
         document.getElementById("C2Container").style.display = "none";
       }
 
@@ -1738,7 +1761,7 @@ export default {
         localStorage.getItem("Q10") != "5" &&
         localStorage.getItem("Q10") != "3"
       ) {
-        console.log("Testing Gone)");
+        //console.log("Testing Gone)");
         document.getElementById("C4Container").style.display = "none";
       }
 
@@ -1750,7 +1773,7 @@ export default {
         parseInt(localStorage.getItem("Q3")) <= 5 &&
         parseInt(localStorage.getItem("Q4")) <= 5
       ) {
-        console.log("Thumbs Gone");
+        //console.log("Thumbs Gone");
         document.getElementById("C6Container").style.display = "none";
       }
 
@@ -1759,7 +1782,7 @@ export default {
       // Feedback Critical start
 
       if (parseInt(localStorage.getItem("Q7")) <= 5) {
-        console.log("Feedback Gone");
+        //console.log("Feedback Gone");
         document.getElementById("C8Container").style.display = "none";
       }
 
@@ -1771,7 +1794,7 @@ export default {
         parseInt(localStorage.getItem("Q6")) <= 5 &&
         localStorage.getItem("Q12") != "5"
       ) {
-        console.log("Feeling Gone");
+        //console.log("Feeling Gone");
         document.getElementById("C12Container").style.display = "none";
       }
 
@@ -1784,7 +1807,7 @@ export default {
         localStorage.getItem("Q1") != "4" &&
         localStorage.getItem("Q1") != "3"
       ) {
-        console.log("Formula Gone");
+        //console.log("Formula Gone");
         document.getElementById("C15Container").style.display = "none";
       }
 
@@ -1796,7 +1819,7 @@ export default {
         parseInt(localStorage.getItem("Q2")) <= 5 &&
         localStorage.getItem("Q11") != "5"
       ) {
-        console.log("Jack Gone");
+        //console.log("Jack Gone");
         document.getElementById("C16Container").style.display = "none";
       }
 
@@ -1826,7 +1849,7 @@ export default {
       document.getElementById("roll_adj").textContent = " have";
       document.getElementById("roll").textContent = " doomed us";
       document.getElementById("roll").style.color = "#d1423b";
-      console.log("PRINT NEW AVG" + localStorage.getItem("newAvg"));
+      //console.log("PRINT NEW AVG" + localStorage.getItem("newAvg"));
 
       document.getElementById("amt").textContent =
         " added " + m + " min " + s + " sec";
@@ -1851,7 +1874,7 @@ export default {
       document.getElementById("roll").textContent = " saviour";
       document.getElementById("roll").style.color = "#426ddb";
 
-      console.log("OLD AVG AT Complete" + localStorage.getItem("oldAvg"));
+      //console.log("OLD AVG AT Complete" + localStorage.getItem("oldAvg"));
       document.getElementById("amt").textContent =
         " reduced " + m + " min " + s + " sec";
       document.getElementById("amt").style.color = "#426ddb";
@@ -1864,7 +1887,7 @@ export default {
   methods: {
     /* Temporarily Abandonded
     returningUser: function() {
-      console.log(localStorage.getItem("qset"));
+      //console.log(localStorage.getItem("qset"));
 
       if (localStorage.getItem("qset") == "S") {
         document.getElementById("next").style.opacity = "1";
@@ -1899,7 +1922,7 @@ export default {
     localStorage.removeItem("oldAvg");
     localStorage.removeItem("oldRecords");
     localStorage.removeItem("newAvg");
-    console.log("Destroyed");
+    //console.log("Destroyed");
   },
 };
 </script>

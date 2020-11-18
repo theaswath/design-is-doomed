@@ -1069,7 +1069,7 @@ footer {
   }
 }
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1601px) {
+@media screen and (min-device-width: 1400px) and (max-device-width: 1601px) {
   .clock-div {
     margin: -5% 2.5% 5% 2.5%;
     transform-origin: top left;
@@ -1113,6 +1113,150 @@ footer {
     }
     h2 {
       font-size: 10em;
+    }
+  }
+
+  #origin {
+    h1 {
+      font-size: 3em;
+
+      transform: scale(2);
+    }
+    h2 {
+      font-size: 10em;
+      margin-top: -25%;
+    }
+
+    h3 {
+      margin-top: 2.5%;
+      color: #eeeeee;
+    }
+  }
+
+  #today {
+    h1 {
+      font-size: 3em;
+
+      transform: scale(2);
+    }
+    h2 {
+      font-size: 10em;
+      margin-top: -30%;
+    }
+
+    h3 {
+      margin-top: 2.5%;
+      color: #eeeeee;
+    }
+  }
+
+  #designDoomed {
+    h1 {
+      font-size: 3em;
+
+      transform: scale(2);
+    }
+    h2 {
+      font-size: 10em;
+      margin-top: -20%;
+    }
+
+    h3 {
+      margin-top: 2.5%;
+      color: #eeeeee;
+    }
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1399px) {
+  .clock-div {
+    margin: 0% 2.5% 10% 2.5%;
+    transform-origin: top left;
+    transform: scale(1.5);
+  }
+  h1 {
+    color: #0e0e0e;
+    font-size: 60px;
+
+    line-height: 1px;
+  }
+
+  h2 {
+    font-size: 72px;
+  }
+
+  h3 {
+    color: #0e0e0e;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  #info-div {
+    margin: 2.5%;
+    margin-top: 5%;
+    width: 40%;
+    animation: ease-in 1.5s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  #about {
+    h1 {
+      font-size: 13em;
+    }
+    h2 {
+      font-size: 10em;
+    }
+  }
+
+  #origin {
+    h1 {
+      font-size: 3em;
+
+      transform: scale(2);
+    }
+    h2 {
+      font-size: 10em;
+      margin-top: -30%;
+    }
+
+    h3 {
+      margin-top: 2.5%;
+      color: #eeeeee;
+    }
+  }
+
+  #today {
+    h1 {
+      font-size: 3em;
+
+      transform: scale(2);
+    }
+    h2 {
+      font-size: 10em;
+      margin-top: -35%;
+    }
+
+    h3 {
+      margin-top: 2.5%;
+      color: #eeeeee;
+    }
+  }
+
+  #designDoomed {
+    h1 {
+      font-size: 3em;
+
+      transform: scale(2);
+    }
+    h2 {
+      font-size: 10em;
+      margin-top: -25%;
+    }
+
+    h3 {
+      margin-top: 2.5%;
+      color: #eeeeee;
     }
   }
 }
@@ -1415,7 +1559,7 @@ export default {
       localStorage.removeItem("qset");
       localStorage.removeItem("userID");
       localStorage.removeItem("cleanup");
-      console.log("removed");
+      //console.log("removed");
     }
     // Clock Movement
     // $(document).ready(function() {

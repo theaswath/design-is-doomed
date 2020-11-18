@@ -403,7 +403,20 @@ footer {
   opacity: 0;
 }
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1601px) {
+@media screen and (min-device-width: 1400px) and (max-device-width: 1601px) {
+  h1 {
+    font-size: 64px;
+
+    line-height: 4px;
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1399px) {
+  h1 {
+    font-size: 56px;
+
+    line-height: 4px;
+  }
 }
 
 /* ----------- iPad Pro 10.5" ----------- */
@@ -493,15 +506,15 @@ export default {
 
     async setUID() {
       if (document.getElementById("name").value === "") {
-        console.log("null");
+        //console.log("null");
         localStorage.setItem("feedbackName", "anon" + Math.random());
-        console.log("USERID NULL: " + localStorage.getItem("feedbackName"));
+        //console.log("USERID NULL: " + localStorage.getItem("feedbackName"));
       } else {
         localStorage.setItem(
           "feedbackName",
           document.getElementById("name").value + +Math.random()
         );
-        console.log("USERID Not NULL: " + localStorage.getItem("feedbackName"));
+        //console.log("USERID Not NULL: " + localStorage.getItem("feedbackName"));
       }
     },
 
@@ -521,8 +534,8 @@ export default {
       await firebase.auth().onAuthStateChanged(function (user) {
         if (user) {
           // User is signed in.
-          console.log(user.isAnonymous);
-          console.log("USER ID: " + user.uid);
+          //console.log(user.isAnonymous);
+          //console.log("USER ID: " + user.uid);
           // ...
         } else {
           // User is signed out.
@@ -543,7 +556,7 @@ export default {
           content: document.getElementById("feedbackContent").value,
         })
         .then(() => {
-          console.log("Document successfully written!");
+          //console.log("Document successfully written!");
         })
         .catch((error) => {
           console.error("Error writing document: ", error);

@@ -13,9 +13,9 @@
       <div class="content">
         <h2 class="h2-upper-case">Choose you question set</h2>
         <p style="padding-left: 20%; padding-right: 20%">
-          Both contain questions tailored and ordered to suit individual
-          roles.<br />If you qualify for answering both, you may answer them one
-          after the other.
+          Both contain questions tailored and ordered to suit individual roles.
+          If you qualify for answering both, you may answer them one after the
+          other.
         </p>
         <div class="division">
           <a>
@@ -27,12 +27,12 @@
               <h3>Academic</h3>
               <p>
                 Current or former undergraduate, graduate or PhD student
-                pursuing a degree in a creative field including but not limited
-                to graphic design, industrial design, interaction design,
-                advertising, medical equipment design, social innovation,
-                product design, communication design, or any other field that
-                qualifies you as a working design professional either now, in
-                the past or in the future.
+                pursuing/acquired a degree in a creative field including but not
+                limited to graphic design, industrial design, interaction
+                design, advertising, medical equipment design, social innovation
+                design, product design, communication design, or any other field
+                that qualifies you as a working design professional either now,
+                in the past or in the future.
               </p>
             </div>
           </a>
@@ -253,7 +253,7 @@ export default {
   methods: {
     // Temporarily Abandonded
     returningUser: function () {
-      console.log(localStorage.getItem("qset"));
+      //console.log(localStorage.getItem("qset"));
 
       if (localStorage.getItem("qset") == "S") {
         document.getElementById("next").style.opacity = "1";
@@ -282,8 +282,8 @@ export default {
     },
 
     roller: function () {
-      console.log(event.currentTarget.id);
-      console.log(this.$route.name);
+      //console.log(event.currentTarget.id);
+      //console.log(this.$route.name);
 
       if (event.currentTarget.id == "student") {
         localStorage.setItem("qset", "S");

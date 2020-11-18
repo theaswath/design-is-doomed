@@ -164,7 +164,7 @@
     <section id="reviews">
       <div id="title">
         <h1 style="margin-bottom: 0" class="h1-upper-case">
-          Reviews we gave ourselves
+          Reviews we<br />gave ourselves
         </h1>
         <p><strong>(Because who cares about user feedback!)</strong></p>
       </div>
@@ -920,7 +920,61 @@ footer {
   opacity: 0;
 }
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1601px) {
+@media screen and (min-device-width: 1400px) and (max-device-width: 1601px) {
+  #types {
+    #cardContent {
+      #whiteCardsInfo {
+        min-height: 300px;
+      }
+      #blackCardsInfo {
+        min-height: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1399px) {
+  #cardRandomizeWrapper {
+    #whiteCards {
+      height: 75vh;
+
+      #whiteCard {
+        height: 100%;
+      }
+    }
+
+    #randombtn {
+      height: 75vh;
+    }
+
+    #blackCards {
+      height: 75vh;
+      #blackCard {
+        height: 100%;
+      }
+    }
+  }
+
+  #types {
+    #cardContent {
+      #whiteCardsInfo {
+        min-height: 300px;
+      }
+      #blackCardsInfo {
+        min-height: 300px;
+      }
+    }
+  }
+
+  #reviews {
+    h1 {
+      font-size: 1.5em;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
 }
 
 /* ----------- iPad Pro 10.5" ----------- */

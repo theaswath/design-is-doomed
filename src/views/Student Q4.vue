@@ -278,14 +278,14 @@ export default {
     this.returningUser();
 
     if (localStorage.getItem("Q4") === null) {
-      console.log("Works");
+      //console.log("Works");
       document.getElementById("next").style.cursor = "not-allowed";
       document.getElementById("next").disabled = true;
     }
   },
   methods: {
     optionSelected: function () {
-      console.log(event.currentTarget.id);
+      //console.log(event.currentTarget.id);
       document.getElementById("next").style.cursor = "pointer";
       document.getElementById("next").disabled = false;
 
@@ -621,10 +621,10 @@ export default {
     },
 
     returningUser: function () {
-      console.log("returning User Triggered");
+      //console.log("returning User Triggered");
 
       if (localStorage.getItem("qset") == "S") {
-        console.log("QSET S");
+        //console.log("QSET S");
         //Option A
         if (localStorage.getItem("Q4") == "0") {
           document.getElementById("next").style.cursor = "pointer";
