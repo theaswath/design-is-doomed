@@ -6,7 +6,7 @@
         <h2>
           Q12. Are you taught about the importance of intuition in design?
         </h2>
-        <p>Note: Intuition is not the same as intitive design.</p>
+        <p>Note: Intuition is not the same as intuitive design.</p>
         <!-- Options Start -->
 
         <div class="division">

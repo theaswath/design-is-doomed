@@ -162,7 +162,7 @@
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.2px;
-    border: 1px rgba(17, 17, 17, 0.5) solid;
+    border: 1px rgba(14, 14, 14, 0.5) solid;
   }
 
   input[type="email"] {
@@ -176,7 +176,7 @@
 
   textarea {
     background-color: transparent;
-    border: 1px rgba(17, 17, 17, 0.5) solid;
+    border: 1px rgba(14, 14, 14, 0.5) solid;
   }
 
   #submit {
@@ -199,15 +199,15 @@
     &:hover {
       transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
       transition-duration: 0.3s;
-      background-color: rgba(17, 17, 17, 1);
+      background-color: rgba(14, 14, 14, 1);
       color: rgba(238, 238, 238, 1);
-      border: 2px rgba(17, 17, 17, 1) solid;
+      border: 2px rgba(14, 14, 14, 1) solid;
     }
 
     &:disabled {
-      background-color: rgba(17, 17, 17, 0.2);
-      color: rgba(17, 17, 17, 0.2);
-      border: 2px rgba(17, 17, 17, 0.2) solid;
+      background-color: rgba(14, 14, 14, 0.2);
+      color: rgba(14, 14, 14, 0.2);
+      border: 2px rgba(14, 14, 14, 0.2) solid;
       cursor: not-allowed;
     }
   }

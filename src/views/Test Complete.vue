@@ -156,11 +156,7 @@
           <router-link to="/cards-against-design"
             >Cards Against Design</router-link
           >
-          <a
-            style="cursor: pointer"
-            onClick="window.scrollTo({ top: 0, behavior: 'smooth' })"
-            >Your Voice</a
-          >
+          <router-link to="/your-voice">Your Voice</router-link>
         </div>
         <div class="disclaimer">
           <h1>Disclaimer</h1>

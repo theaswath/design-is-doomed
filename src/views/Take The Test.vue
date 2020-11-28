@@ -11,7 +11,7 @@
     </div>
     <div class="container">
       <div class="content">
-        <h2 class="h2-upper-case">Choose you question set</h2>
+        <h2 class="h2-upper-case">Choose your question set</h2>
         <p style="padding-left: 20%; padding-right: 20%">
           Both contain questions tailored and ordered to suit individual roles.
           If you qualify for answering both, you may answer them one after the

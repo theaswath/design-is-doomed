@@ -5,18 +5,18 @@
       <div class="content">
         <h2>Compliance With Data & Privacy Protection Laws Of Individuals</h2>
         <p>
-          While all data submitted is anonymous and no private information
-          (including IP addresses) are collected, individual question responses
-          and the corresponding question set are stored under randomly generated
-          user IDs for future academic and research use. To comply with data and
-          privacy protection laws, you may choose to enter a unique identifier
-          (UID) that will help us delete your response data in case you require.
-          Note that however it is not possible to delete the calculated data
-          which is the result of all responses of everyone who has ever taken
-          the test and such data does not have individually identifiable
-          components. This step is optional and by not providing a UID there is
-          no way to identify and hence no way to delete your data from our
-          records.
+          While all data submitted is anonymous and <strong>no</strong> private
+          information (including IP addresses) are collected, individual
+          question responses and the corresponding question set are stored under
+          randomly generated user IDs for future academic and research use. To
+          comply with data and privacy protection laws, you may choose to enter
+          a unique identifier (UID) that will help us delete your response data
+          in case you require. Note that however it is not possible to delete
+          the calculated data which is the result of all responses of everyone
+          who has ever taken the test and such data does not have individually
+          identifiable components. This step is optional and by not providing a
+          UID there is no way to identify and hence no way to delete your data
+          from our records.
         </p>
         <!-- Options Start -->
 
@@ -127,7 +127,7 @@ button {
     font-weight: 700;
     font-size: 24px;
     letter-spacing: 0.2px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(14, 14, 14, 0);
     color: #0e0e0e;
     border: 2px #0e0e0e solid;
     padding: 8px 40px;
@@ -136,10 +136,11 @@ button {
     font-family: "Space Grotesk", sans-serif;
     margin: 0% 0% 10% 0%;
     &:focus {
-      background-color: rgba(0, 0, 0, 0);
+      background-color: rgba(14, 14, 14, 0);
       color: #0e0e0e;
     }
     &::placeholder {
+      color: rgba(14, 14, 14, 0.7);
       font-weight: 400;
       font-size: 16px;
     }

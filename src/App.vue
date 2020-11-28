@@ -207,7 +207,7 @@ export default {
         }
       } else if (
         this.check.includes("take-the-test") &&
-        this.$router.currentRoute.name === "Test Complete"
+        this.$router.currentRoute.name === "Test Completed"
       ) {
         this.displayToggle = this.logoSelection[2].url;
         this.qnavDisplayChange(true);
@@ -216,13 +216,13 @@ export default {
           // document.body.style.backgroundColor = "#eeeeee";
           document.body.style.backgroundColor = "rgba(66, 109, 219, 0.3)";
 
-          document.title = "SAVIOUR" || "DEFAULT";
+          document.title = "SAVIOUR | Design Not Doomed" || "DEFAULT";
         } else if (
           localStorage.getItem("newAvg") > localStorage.getItem("oldAvg")
         ) {
           document.body.style.backgroundColor = "rgba(219, 74, 66, 0.3)";
           // document.body.style.backgroundColor = "#db4a42";
-          document.title = "DOOOOOOOM" || "DEFAULT";
+          document.title = "DOOOOOOOM | Design Is Doomed" || "DEFAULT";
         }
       }
 
@@ -1178,7 +1178,7 @@ $main-black: #0e0e0e;
       transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
       transition-duration: 0.3s;
       background-color: rgba(238, 238, 238, 1);
-      color: rgba(17, 17, 17, 1);
+      color: rgba(14, 14, 14, 1);
       border: 2px rgba(238, 238, 238, 1) solid;
     }
   }
@@ -1324,7 +1324,7 @@ $main-black: #0e0e0e;
     transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition-duration: 0.3s;
     background-color: rgba(238, 238, 238, 1);
-    color: rgba(17, 17, 17, 1);
+    color: rgba(14, 14, 14, 1);
     border: 2px rgba(24, 11, 11, 1) solid;
   }
 }
@@ -1348,7 +1348,7 @@ $main-black: #0e0e0e;
     transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition-duration: 0.3s;
     background-color: rgba(238, 238, 238, 1);
-    color: rgba(17, 17, 17, 1);
+    color: rgba(14, 14, 14, 1);
     border: 2px rgba(24, 11, 11, 1) solid;
   }
 }

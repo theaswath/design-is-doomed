@@ -295,7 +295,7 @@ p {
     transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition-duration: 0.3s;
     background-color: rgba(238, 238, 238, 1);
-    color: rgba(17, 17, 17, 1);
+    color: rgba(14, 14, 14, 1);
     border: 2px rgba(238, 238, 238, 1) solid;
   }
 }
@@ -893,8 +893,8 @@ $hovHandColor: #eeeeee;
           text-align: center;
           background-image: url(../assets/images/cad-splitter.jpg);
           background-image: linear-gradient(
-              rgba(0, 0, 0, 0.5),
-              rgba(0, 0, 0, 0.5)
+              rgba(14, 14, 14, 0.5),
+              rgba(14, 14, 14, 0.5)
             ),
             url(../assets/images/cad-splitter.jpg);
           background-size: 100%;
@@ -941,8 +941,8 @@ $hovHandColor: #eeeeee;
           text-align: center;
           background-image: url(../assets/images/your-voice-splitter.jpg);
           background-image: linear-gradient(
-              rgba(0, 0, 0, 0.5),
-              rgba(0, 0, 0, 0.5)
+              rgba(14, 14, 14, 0.5),
+              rgba(14, 14, 14, 0.5)
             ),
             url(../assets/images/your-voice-splitter.jpg);
           background-size: 100%;

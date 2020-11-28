@@ -407,15 +407,15 @@
     &:hover {
       transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
       transition-duration: 0.3s;
-      background-color: rgba(17, 17, 17, 1);
+      background-color: rgba(14, 14, 14, 1);
       color: rgba(238, 238, 238, 1);
-      border: 2px rgba(17, 17, 17, 1) solid;
+      border: 2px rgba(14, 14, 14, 1) solid;
     }
   }
   .selectorButtons-active {
-    background-color: rgba(17, 17, 17, 1) !important;
+    background-color: rgba(14, 14, 14, 1) !important;
     color: rgba(238, 238, 238, 1) !important;
-    border: 2px rgba(17, 17, 17, 1) solid !important;
+    border: 2px rgba(14, 14, 14, 1) solid !important;
   }
 }
 
@@ -724,8 +724,8 @@ p {
           text-align: center;
           background-image: url(../assets/images/cad-splitter.jpg);
           background-image: linear-gradient(
-              rgba(0, 0, 0, 0.5),
-              rgba(0, 0, 0, 0.5)
+              rgba(14, 14, 14, 0.5),
+              rgba(14, 14, 14, 0.5)
             ),
             url(../assets/images/cad-splitter.jpg);
           background-size: 100%;
@@ -772,8 +772,8 @@ p {
           text-align: center;
           background-image: url(../assets/images/cad-splitter.jpg);
           background-image: linear-gradient(
-              rgba(0, 0, 0, 0.5),
-              rgba(0, 0, 0, 0.5)
+              rgba(14, 14, 14, 0.5),
+              rgba(14, 14, 14, 0.5)
             ),
             url(../assets/images/cad-splitter.jpg);
           background-size: 100%;
